@@ -3,6 +3,7 @@ import asyncio
 import discord
 from dotenv import load_dotenv
 
+
 class DiscordClient(discord.Client):
     async def on_ready(self):
         print('Logged on as {0}!'.format(self.user))
