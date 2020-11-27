@@ -21,8 +21,9 @@ DISCORD_BOT_TOKEN
 # environment setup
 
 ```
+export DISCORD_BOT_TOKEN=NzgxOTUzMjU0ODgzNDU5MDc0.X8FItw.akkmdU7ZZeRtakHLDcM27W8U9bw
 python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
-DISCORD_BOT_TOKEN=paste-here
 jupyter notebook
 ```
