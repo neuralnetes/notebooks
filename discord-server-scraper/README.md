@@ -7,10 +7,9 @@ look for tickers
 
 # links
 
-* [get-bot-token](img/bot-token.png)
 * [discord-application](https://discord.com/developers/applications/781953254883459074/bot)
 * [write-bots](https://www.writebots.com/discord-bot-token/)
-* [terraform-provider-discord](https://registry.terraform.io/providers/aequasi/discord/latest/docs)
+* [get-bot-token](file://img/bot-token.png)
 
 # environment setup
 
