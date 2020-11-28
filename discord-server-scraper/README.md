@@ -10,6 +10,7 @@
 * [discord-application](https://discord.com/developers/applications/781953254883459074/bot)
 * [write-bots](https://www.writebots.com/discord-bot-token/)
 * [get-bot-token](file://img/bot-token.png)
+* [get-user-token](https://github.com/Tyrrrz/DiscordChatExporter/wiki/Obtaining-Token-and-Channel-IDs)
 
 # environment setup
 
