@@ -16,11 +16,12 @@ class DiscordClient(discord.Client):
 
 async def main():
     load_dotenv()
-    token = os.environ['DISCORD_BOT_TOKEN']
+    discord_token = os.environ['DISCORD_TOKEN']
+    discord_bot = bool(os.environ['DISCORD_BOT'])
     client = DiscordClient()
     return asyncio.gather(
         client.start(
-            token,
-            bot=True
+            discord_token,
+            bot=discord_bot
         )
     )

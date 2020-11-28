@@ -15,7 +15,8 @@
 
 setup `.env` file with the following environment variables...
 ```
-DISCORD_BOT_TOKEN=
+DISCORD_TOKEN=
+DISCORD_BOT=
 ```
 
 then
