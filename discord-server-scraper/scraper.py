@@ -25,10 +25,8 @@ async def main():
     discord_bot = os.environ['DISCORD_BOT'] == 'true'
     discord_channel_id = 592829914022150146
     client = DiscordClient()
-    return asyncio.gather(
-        client.start(
-            discord_token,
-            bot=discord_bot
-        ),
-        get_channel_history(client, discord_channel_id)
+    _ = await client.start(
+        discord_token,
+        bot=discord_bot
     )
+    return get_channel_history(client, discord_channel_id)
