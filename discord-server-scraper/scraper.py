@@ -1,5 +1,4 @@
 import os
-import asyncio
 import discord
 from dotenv import load_dotenv
 from collections import defaultdict
@@ -19,10 +18,10 @@ async def fetch_channel_messages(client: DiscordClient, channel_id: int):
     return messages
 
 
-def group_message_content_by_author(messages):
+def group_messages_by_author(messages):
     grouped = defaultdict(list)
     for message in messages:
-        grouped[message.author.name].append(message.content)
+        grouped[message.author.name].append(message)
     return grouped
 
 
@@ -38,5 +37,5 @@ async def main():
         bot=discord_bot
     )
     messages = await fetch_channel_messages(client, discord_channel_id)
-    grouped_by_author = group_message_content_by_author(messages)
+    grouped_by_author = group_messages_by_author(messages)
     print(grouped_by_author)
