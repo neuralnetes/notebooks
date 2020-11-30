@@ -3,6 +3,54 @@ import discord
 from dotenv import load_dotenv
 from collections import defaultdict
 
+"""
+Stock Terms
+SS - Short Sale
+Blue Chip - Large Companies, Usually $50BN+ in Size
+OTC - Over the counter, shit stocks, penny stocks that are not registered
+Support -  Where there is more buying
+Resistance - Where there is more selling
+SL - Stop Loss
+VWAP - Volume weighted average price
+MACD - Moving Average Convergence Divergence
+RSI - Relative Strength Index
+EMA - Exponential Moving Average
+MA - Moving average
+PT - Price Target
+"""
+stock_terms = {
+    'SS': 'Short Sale',
+    'Blue Chip': 'Large Companies, Usually $50BN+ in Size',
+    'OTC': 'Over the counter, shit stocks, penny stocks that are not registered',
+    'Support': 'Where there is more buying',
+    'Resistance': 'Where there is more selling',
+    'SL': 'Stop Loss',
+    'VWAP': 'Volume weighted average price',
+    'MACD': 'Moving Average Convergence Divergence',
+    'RSI': 'Relative Strength Index',
+    'EMA': 'Exponential Moving Average',
+    'MA': 'Moving average',
+    'PT': 'Price Target',
+}
+
+"""
+Options Terms
+BTO - Buy to Open
+STC - Sell to Close
+STO - Sell to Open
+BTC - Buy to Close
+Expiration Date - The date in which my contract will become worthless if not exercised by (Why Options are Higher Risk and Reward)
+Strike Price - The price in which I can buy or sell the stock if I choose to exercise my contract
+"""
+options_terms = {
+    'BTO': 'Buy to Open',
+    'STC': 'Sell to Close',
+    'STO': 'Sell to Open',
+    'BTC': 'Buy to Close',
+    'Expiration Date': 'The date in which my contract will become worthless if not exercised by (Why Options are Higher Risk and Reward)',
+    'Strike Price': 'The price in which I can buy or sell the stock if I choose to exercise my contract'
+}
+
 
 class DiscordClient(discord.Client):
     async def on_ready(self):
