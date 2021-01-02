@@ -130,4 +130,7 @@ dmypy.json
 .pyre/
 .DS_Store
 
-checkpoints
+checkpoints/
+
+# IntelliJ IDEA
+.idea

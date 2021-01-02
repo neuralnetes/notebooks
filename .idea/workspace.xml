@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60e7dec5-3596-40de-b73c-d9b07553bda6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/time-series/.python-version" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <updated>1606597843905</updated>
       <workItem from="1606597845197" duration="845000" />
       <workItem from="1609203803599" duration="599000" />
-      <workItem from="1609547278908" duration="45000" />
+      <workItem from="1609547278908" duration="88000" />
     </task>
     <servers />
   </component>
